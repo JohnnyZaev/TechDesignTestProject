@@ -8,7 +8,7 @@ namespace UI
         public void LoadNextScene()
         {
             var nextScene = SceneManager.GetActiveScene().buildIndex + 1;
-            if (SceneManager.sceneCountInBuildSettings <= nextScene)
+            if (nextScene >= SceneManager.sceneCountInBuildSettings)
                 return;
             SceneManager.LoadScene(nextScene);
         }
