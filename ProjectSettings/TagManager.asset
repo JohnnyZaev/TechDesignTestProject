@@ -11,7 +11,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Interactable Objects
   - 
   - 
   - 
@@ -44,9 +44,12 @@ TagManager:
   - name: Background
     uniqueID: 2591637337
     locked: 0
-  - name: StaticObjects
+  - name: Static_objects
     uniqueID: 2333671627
     locked: 0
-  - name: Interactable objects
+  - name: Animated_objects
+    uniqueID: 2967827939
+    locked: 0
+  - name: Interactable_objects
     uniqueID: 3440131625
     locked: 0
